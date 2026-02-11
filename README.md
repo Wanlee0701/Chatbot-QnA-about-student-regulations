@@ -121,3 +121,7 @@ This project is a Graduation Thesis (Đồ án II) at the School of Applied Math
 
 * **Author:** Lê Quang Đức (20227221)
 * **Supervisor:** TS. Ngô Thị Hiền
+
+---
+[Link model](https://huggingface.co/wanduc0701/hust_chatbot_qwen2.5_finetuned)
+[Link dataset](https://huggingface.co/datasets/wanduc0701/Sft_dataset_hust_regulation)
