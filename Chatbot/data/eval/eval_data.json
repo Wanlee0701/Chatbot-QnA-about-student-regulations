@@ -1,0 +1,209 @@
+eval_data = [
+    # --- NHÓM 1: CÂU HỎI VỀ QUY ĐỊNH NGOẠI NGỮ K65 (Áp dụng K65, K66, K67) ---
+    {
+        "id": "q_k65_01",
+        "question": "Sinh viên khóa K67 cần đạt chuẩn TOEIC bao nhiêu để được xét nhận đồ án tốt nghiệp?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quy định ngoại ngữ từ K65",
+        "ground_truth": "Theo Phụ lục 3, Bảng 3.2 của Quy định ngoại ngữ từ K65, sinh viên khóa K67 cần đạt tối thiểu 500 điểm TOEIC để được xét nhận đồ án/khóa luận tốt nghiệp."
+    },
+    {
+        "id": "q_k65_02",
+        "question": "Mã học phần Tiếng Anh cơ sở 1 dành cho sinh viên K66 là gì?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quy định ngoại ngữ từ K65",
+        "ground_truth": "Theo Phụ lục 3, Bảng 3.1 của Quy định ngoại ngữ từ K65, mã học phần Tiếng Anh cơ sở 1 dành cho sinh viên (áp dụng từ K65 trở đi) là FL1129."
+    },
+    {
+        "id": "q_k65_03",
+        "question": "Nếu tôi là sinh viên K65 và đạt TOEIC 450, tôi được miễn học phần nào?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quy định ngoại ngữ từ K65",
+        "ground_truth": "Theo Phụ lục 3, Bảng 3.1 của Quy định ngoại ngữ từ K65, với mức điểm TOEIC 450 (cao hơn mức 400), sinh viên được miễn học phần FL1129 (Tiếng Anh cơ sở 1) và FL1130 (Tiếng Anh cơ sở 2)."
+    },
+
+    # --- NHÓM 2: CÂU HỎI VỀ QUY ĐỊNH NGOẠI NGỮ K68 (Áp dụng K68, K69) ---
+    {
+        "id": "q_k68_01",
+        "question": "Sinh viên K68 chương trình chuẩn cần đạt trình độ ngoại ngữ nào để xét tốt nghiệp?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quyết định ngoại ngữ từ K68",
+        "ground_truth": "Theo Phụ lục 3, Bảng 3.2 của Quyết định ngoại ngữ từ K68, sinh viên chương trình đào tạo chuẩn cần đạt trình độ ngoại ngữ tối thiểu Bậc 3.1 để đủ điều kiện xét tốt nghiệp."
+    },
+    {
+        "id": "q_k68_02",
+        "question": "Chứng chỉ VSTEP B1 quy đổi tương đương bậc mấy đối với sinh viên K69?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quyết định ngoại ngữ từ K68",
+        "ground_truth": "Theo Phụ lục 2, Bảng 1 của Quyết định ngoại ngữ từ K68, chứng chỉ VSTEP B1 được quy đổi tương đương Bậc 3 trong Khung năng lực ngoại ngữ."
+    },
+    {
+        "id": "q_k68_03",
+        "question": "Sinh viên K68 có được dùng chứng chỉ TOEIC 4 kỹ năng để xét chuẩn đầu ra không?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quyết định ngoại ngữ từ K68",
+        "ground_truth": "Theo Điều 4, Khoản 4 của Quyết định ngoại ngữ từ K68, sinh viên được phép sử dụng chứng chỉ tiếng Anh quốc tế 4 kỹ năng (bao gồm TOEIC 4 kỹ năng) để xét công nhận đạt chuẩn ngoại ngữ đầu ra."
+    },
+
+    # --- NHÓM 3: CÂU HỎI VỀ QUY ĐỊNH NGOẠI NGỮ K70 (Áp dụng từ K70) ---
+    {
+        "id": "q_k70_01",
+        "question": "Sinh viên K70 thuộc Nhóm 6 được miễn những học phần nào?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quyết định ngoại ngữ từ K70",
+        "ground_truth": "Theo Phụ lục III, Bảng 3.1 của Quyết định ngoại ngữ từ K70, sinh viên thuộc Nhóm 6 (đạt trình độ Bậc 3 trở lên) được miễn toàn bộ các học phần Tiếng Anh cơ sở từ FL1131 đến FL1135."
+    },
+    {
+        "id": "q_k70_02",
+        "question": "Sinh viên K70 ngành CNTT Việt-Nhật có ngoại ngữ chính là gì?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quyết định ngoại ngữ từ K70",
+        "ground_truth": "Theo Phụ lục I của Quyết định ngoại ngữ từ K70, sinh viên ngành Công nghệ thông tin Việt-Nhật (mã tuyển sinh IT-E6) có ngoại ngữ chính yêu cầu là Tiếng Nhật."
+    },
+    {
+        "id": "q_k70_03",
+        "question": "Nếu tôi là K70 và có chứng chỉ IELTS 5.5, tôi thuộc nhóm mấy?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quyết định ngoại ngữ từ K70",
+        "ground_truth": "Theo Phụ lục II và Phụ lục III của Quyết định ngoại ngữ từ K70, chứng chỉ IELTS 5.5 tương đương Bậc 4. Do đó, bạn thuộc Nhóm 6 (nhóm dành cho sinh viên đạt trình độ Bậc 3 trở lên)."
+    },
+
+    # --- NHÓM 4: CÂU HỎI VỀ DẠY HỌC TRỰC TUYẾN (B-LEARNING) ---
+    {
+        "id": "q_online_01",
+        "question": "Thời lượng video bài giảng B-Learning nên dài bao nhiêu phút?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quy định dạy-học trực tuyến",
+        "ground_truth": "Theo Phụ lục 1, Mục 2.a của Quy định dạy-học trực tuyến, thời lượng video bài giảng quy chuẩn nên nằm trong khoảng 15-30 phút (tương đương với 45 phút dạy trực tiếp)."
+    },
+    {
+        "id": "q_online_02",
+        "question": "Tỷ lệ tối đa tín chỉ được dạy trên LMS đối với B-Learning là bao nhiêu?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quy định dạy-học trực tuyến",
+        "ground_truth": "Theo Điều 2, Khoản 5 của Quy định dạy-học trực tuyến, tổng số tín chỉ được dạy-học trên LMS của các học phần B-Learning không được vượt quá 30% tổng số tín chỉ của chương trình đào tạo."
+    },
+
+    # --- NHÓM 5: CÂU HỎI VỀ CHUYỂN ĐỔI TÍN CHỈ ---
+    {
+        "id": "q_trans_01",
+        "question": "Sinh viên được chuyển đổi tối đa bao nhiêu tín chỉ từ trường đối tác?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quy định chuyển đổi kết quả học tập tương đương và công nhận tín chỉ",
+        "ground_truth": "Theo Điều 2, Khoản 5 của Quy định chuyển đổi kết quả học tập tương đương, mỗi sinh viên chỉ được xét công nhận tối đa 30 tín chỉ."
+    },
+    {
+        "id": "q_trans_02",
+        "question": "Điểm số tối thiểu để được xét công nhận tín chỉ là bao nhiêu?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quy định chuyển đổi kết quả học tập tương đương và công nhận tín chỉ",
+        "ground_truth": "Theo Điều 2, Khoản 2 của Quy định chuyển đổi kết quả học tập tương đương, học phần phải có kết quả đạt từ 4,0 theo thang điểm 10 (hoặc điểm D theo thang điểm chữ) trở lên mới được xét công nhận tín chỉ."
+    },
+
+    # --- NHÓM 6: CÂU HỎI TỪ CHỐI (REFUSE - OUT OF SCOPE / NOISE) ---
+    {
+        "id": "q_noise_01",
+        "question": "Học phí năm học 2030 dự kiến là bao nhiêu?",
+        "expected_behavior": "refuse",
+        "expected_doc_type": None,
+        "ground_truth": "Xin lỗi, hiện tại mình chưa có thông tin về câu hỏi mà bạn đưa ra. Bạn hãy liên hệ với Ban Công tác Sinh viên hoặc Ban Quản lý Đào tạo để biết thêm về thông tin bạn muốn tìm kiếm."
+    },
+    {
+        "id": "q_noise_02",
+        "question": "Nhà xe D3 nằm ở vị trí nào?",
+        "expected_behavior": "refuse",
+        "expected_doc_type": None,
+        "ground_truth": "Xin lỗi, hiện tại mình chưa có thông tin về câu hỏi mà bạn đưa ra. Bạn hãy liên hệ với Ban Công tác Sinh viên hoặc Ban Quản lý Đào tạo để biết thêm về thông tin bạn muốn tìm kiếm."
+    },
+    {
+        "id": "q_noise_03",
+        "question": "Làm thế nào để hack điểm rèn luyện?",
+        "expected_behavior": "refuse",
+        "expected_doc_type": None,
+        "ground_truth": "Xin lỗi, hiện tại mình chưa có thông tin về câu hỏi mà bạn đưa ra. Bạn hãy liên hệ với Ban Công tác Sinh viên hoặc Ban Quản lý Đào tạo để biết thêm về thông tin bạn muốn tìm kiếm."
+    },
+    {
+        "id": "q_noise_04",
+        "question": "Review quán cơm rang ngon gần cổng Parabol.",
+        "expected_behavior": "refuse",
+        "expected_doc_type": None,
+        "ground_truth": "Xin lỗi, hiện tại mình chưa có thông tin về câu hỏi mà bạn đưa ra. Bạn hãy liên hệ với Ban Công tác Sinh viên hoặc Ban Quản lý Đào tạo để biết thêm về thông tin bạn muốn tìm kiếm."
+    },
+    {
+        "id": "q_noise_05",
+        "question": "Quy chế tuyển sinh năm 1990 của trường như thế nào?",
+        "expected_behavior": "refuse",
+        "expected_doc_type": None,
+        "ground_truth": "Xin lỗi, hiện tại mình chưa có thông tin về câu hỏi mà bạn đưa ra. Bạn hãy liên hệ với Ban Công tác Sinh viên hoặc Ban Quản lý Đào tạo để biết thêm về thông tin bạn muốn tìm kiếm."
+    },
+    {
+        "id": "q_qc25_01",
+        "question": "Thời gian đào tạo chuẩn và khối lượng kiến thức tối thiểu cho bằng Cử nhân là bao nhiêu?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quy chế đào tạo năm 2025",
+        "ground_truth": "Theo Điều 2, Khoản 6 của Quy chế đào tạo năm 2025, thời gian đào tạo chuẩn cho bằng Cử nhân là 4 năm và khối lượng tối thiểu là 132 tín chỉ."
+    },
+    {
+        "id": "q_qc25_02",
+        "question": "Một tín chỉ được tính bằng bao nhiêu giờ học tập?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quy chế đào tạo năm 2025",
+        "ground_truth": "Theo Điều 4, Khoản 1 của Quy chế đào tạo năm 2025, một tín chỉ được tính tương đương 50 giờ học tập định mức của người học (bao gồm giờ giảng, tự học, nghiên cứu, v.v.)."
+    },
+    {
+        "id": "q_qc25_03",
+        "question": "Khi nào sinh viên bị cảnh báo học tập mức 3?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quy chế đào tạo năm 2025",
+        "ground_truth": "Theo Điều 19, Khoản 1.c của Quy chế đào tạo năm 2025, sinh viên bị áp dụng cảnh báo học tập mức 3 khi có số tín chỉ nợ đọng từ đầu khóa lớn hơn 24."
+    },
+    {
+        "id": "q_qc25_04",
+        "question": "Sinh viên rút học phần trong 7 tuần đầu có được giảm học phí không?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quy chế đào tạo năm 2025",
+        "ground_truth": "Theo Điều 9, Khoản 3 của Quy chế đào tạo năm 2025, nếu sinh viên đề nghị rút học phần trong 7 tuần đầu và được chấp nhận, sinh viên chỉ phải đóng 50% học phí của học phần đó (trừ trường hợp tuần đầu kỳ 2 ngoại lệ hoặc kỳ hè)."
+    },
+    {
+        "id": "q_qc25_05",
+        "question": "Điều kiện để sinh viên đăng ký học chương trình thứ hai là gì?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quy chế đào tạo năm 2025",
+        "ground_truth": "Theo Điều 18, Khoản 2 của Quy chế đào tạo năm 2025, sinh viên được đăng ký học chương trình thứ hai sớm nhất khi được xếp trình độ năm thứ hai của chương trình thứ nhất, có CPA từ trung bình trở lên và đáp ứng điều kiện trúng tuyển của chương trình thứ hai."
+    },
+    {
+        "id": "q_qc25_06",
+        "question": "Điểm D+ quy đổi sang thang điểm 4 là bao nhiêu?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quy chế đào tạo năm 2025",
+        "ground_truth": "Theo Điều 5, Khoản 6 của Quy chế đào tạo năm 2025, điểm chữ D+ được quy đổi thành điểm số 1,5 theo thang 4."
+    },
+    {
+        "id": "q_qc25_07",
+        "question": "Hạn chế khối lượng học tập đối với sinh viên bị cảnh báo mức 2 là gì?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quy chế đào tạo năm 2025",
+        "ground_truth": "Theo Điều 19, Khoản 2 của Quy chế đào tạo năm 2025, sinh viên bị cảnh báo mức 2 trở lên thuộc CTĐT chuẩn được đăng ký tối đa 14 TC/kỳ; sinh viên ELITECH/hợp tác quốc tế được đăng ký tối đa 18 TC/kỳ."
+    },
+    {
+        "id": "q_qc25_08",
+        "question": "Nghiên cứu sinh được gia hạn thời gian làm luận án mấy lần?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quy chế đào tạo năm 2025",
+        "ground_truth": "Theo Điều 3, Khoản 3.c của Quy chế đào tạo năm 2025, nghiên cứu sinh được gia hạn thời gian thực hiện luận án tối đa 2 lần, mỗi lần tối thiểu 6 tháng và tổng thời gian gia hạn không quá 24 tháng."
+    },
+    {
+        "id": "q_qc25_09",
+        "question": "Sinh viên nghỉ học tạm thời vì đi nghĩa vụ quân sự có bị tính vào thời gian chậm tiến độ không?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quy chế đào tạo năm 2025",
+        "ground_truth": "Theo Điều 16, Khoản 2.c của Quy chế đào tạo năm 2025, thời gian nghỉ học tạm thời do điều động vào lực lượng vũ trang không tính vào thời gian học chậm tiến độ."
+    },
+    {
+        "id": "q_qc25_10",
+        "question": "Quy chế đào tạo năm 2025 có hiệu lực từ khi nào?",
+        "expected_behavior": "answer",
+        "expected_doc_type": "Quy chế đào tạo năm 2025",
+        "ground_truth": "Theo Điều 48, Khoản 1 của Quy chế đào tạo năm 2025, quy chế này có hiệu lực thi hành từ học kỳ 1 năm học 2025-2026."
+    }
+]
