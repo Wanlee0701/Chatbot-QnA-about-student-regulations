@@ -98,6 +98,10 @@ The application interface is built using **Gradio**, offering a clean and access
 3.  **Output:** The bot provides an answer citing specific regulations (e.g., *Theo Điều 12...*).
 4.  **Verification:** A "Reference" section displays the actual text of the cited regulations for verification.
 
+
+https://github.com/user-attachments/assets/886cc4b0-9efe-4efc-bbe0-f6de0188ce8f
+
+
 ---
 
 ## 🛠️ Tech Stack
